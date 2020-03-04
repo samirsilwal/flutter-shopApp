@@ -49,4 +49,10 @@ void removeItem(remId) {
   notifyListeners();
 }
 
+
+void remove() {
+  _items ={};
+  notifyListeners();  
+}
+
 }
